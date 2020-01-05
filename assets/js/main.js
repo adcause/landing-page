@@ -8,7 +8,7 @@ else if (navigator.userAgent.indexOf("Firefox") != -1) {
   downloadLink.href = "https://addons.mozilla.org/en-US/firefox/addon/adcause/";
 }
 else {
-  downloadLink.innerHTML = "Currently unavailable for your browser";
+  downloadLink.innerHTML = "Unavailable";
   downloadLink.href = "";
 }
 
